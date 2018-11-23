@@ -2,7 +2,7 @@
 #Company: Illogic 
 #http://www.illogic.software
 #summary: This is the rule file with some examples below
-#READ IT CAREFULLY!
+#
 #
 #tag:the name of the rule, this will be used by the rule engine during the output, tags are sorted and must be unique!
 #direction: FORWARD -> means use the A value, BACKWARD -> means use the B value, NONE -> don't care ( use ONLY with action=FIX || delete )

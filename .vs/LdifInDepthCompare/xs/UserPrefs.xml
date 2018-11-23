@@ -1,7 +1,9 @@
-﻿<Properties StartupConfiguration="{FC4106A5-38A7-453B-B176-6148E2C0472F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LdifInDepthCompare/Rule.cs">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{FC4106A5-38A7-453B-B176-6148E2C0472F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Stato di LdifInDepthCompare">
     <Files>
-      <File FileName="LdifInDepthCompare/Rule.cs" Line="102" Column="1" />
+      <File FileName="LdifInDepthCompare/Rule.cs" Line="92" Column="64" />
+      <File FileName="LdifInDepthCompare/Samples/rules.txt" Line="5" Column="2" />
+      <File FileName="Stato di LdifInDepthCompare" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.LdifInDepthCompare PreferredExecutionTarget="MonoDevelop.Default" />
