@@ -1,0 +1,37 @@
+#Author: Simonluca Scillitani
+#Company: Illogic 
+#http://www.illogic.software
+#summary: This is the rule file with some examples below
+#READ IT CAREFULLY!
+#
+#tag:the name of the rule, this will be used by the rule engine during the output, tags are sorted and must be unique!
+#direction: FORWARD -> means use the A value, BACKWARD -> means use the B value, NONE -> don't care ( use ONLY with action=FIX || delete )
+#action: COPY || DELETE || CONCATENATE || { md5 || sha256 -> HASH IS ONLY FOR FIELDS NOT FOR RECORDS } || FIX ( use ONLY with direction=NONE ) 
+#	 FILL ( if A exist use A otherwise if B exist use B if both doesn't exist put a default value specified in the value column. If you do not want a fex output use *NO_OUTPUT* ) 
+#level: FIELD || RECORD
+#selector: BY_NAME || BY_REGEX
+#match: dn for records or fieldname for fields or a regex
+#default:<depends> use specials: *EMPTY* for a blank value, *NO_OUTPUT* if no match
+#
+#Below some useless examples rules :-)
+#
+#tag	direction;	action;		level;	selector;		match 				default		description
+#R1	FORWARD  ;	COPY  ;		field ;	BY_NAME;		eTADSlyncSIPAddressOption 	<if A is empty>	copies the A value of the eTADSlyncSIPAddressOption field into B record
+#															if A is empty uses the value specified default, leave blank for an empty default or
+#															*NO_OUTPUT* the field will be automatically removed from the output when empty
+#R2	BACKWARD ;	CONCATENATE  ;	field ;	BY_REGEX;		^eT*Address*Option[0-9] 	<if both empty>	concatenate B+A ( for A+B use FORWARD )  for each fieldName which match the regexp
+#															if BOTH empty uses the value specified default, leave blank for an empty default or
+#															*NO_OUTPUT* if you want the field to be removed from the output when empty
+#															*EMPTY* if you want the field blank
+#R3	NONE     ;	FIX   ; 	field;	BY_NAME;		eTCreateNode  			admin		put eTCreateNode:admin regardless of values in A & B
+#R4	NONE	  ;	DELETE; 	field;  BY_REGEX;		eTCreateNode;			<leave blank>	field will not be put in the resulting file 
+#R5	FORWARD  ;	FILL; 		record; BY_REGEX;		eT*Name;			*NO_OUTPUT*	if the dn matches the regexp:
+#															if A contains the record and B don't then output A
+#															if A DO NOT contains the record and B contains it then output B
+#															if BOTH contain the record then output A because of the DIRECTION
+#															if BOTH DO NOT contain the record output nothing because of *NO_OUTPUT* 
+#R6	BACKWARD  ;	FILL; 		field; BY_NAME;			eTCreationDate;			2018/12/1	if the fieldName  matches:
+#															if A contains the field and B don't then output A
+#															if A DO NOT contains the field and B contains it then output B
+#															if BOTH contain the field then output B because of the DIRECTION
+#															if BOTH DO NOT contain the record output 2018/12/1
