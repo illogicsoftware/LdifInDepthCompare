@@ -1,0 +1,12 @@
+/Users/backbone/Projects/LdifInDepthCompare/LdifInDepthCompare/bin/Debug/LdifInDepthCompare.exe
+/Users/backbone/Projects/LdifInDepthCompare/LdifInDepthCompare/bin/Debug/LdifInDepthCompare.pdb
+/Users/backbone/Projects/LdifInDepthCompare/LdifInDepthCompare/obj/x86/Debug/LdifInDepthCompare.csprojAssemblyReference.cache
+/Users/backbone/Projects/LdifInDepthCompare/LdifInDepthCompare/obj/x86/Debug/LdifInDepthCompare.csproj.CoreCompileInputs.cache
+/Users/backbone/Projects/LdifInDepthCompare/LdifInDepthCompare/obj/x86/Debug/LdifInDepthCompare.exe
+/Users/backbone/Projects/LdifInDepthCompare/LdifInDepthCompare/obj/x86/Debug/LdifInDepthCompare.pdb
+/Users/backbone/Documents/Archivio/Code/illogicsoftware/LdifInDepthCompare.git/LdifInDepthCompare/obj/x86/Debug/LdifInDepthCompare.csprojAssemblyReference.cache
+/Users/backbone/Documents/Archivio/Code/illogicsoftware/LdifInDepthCompare.git/LdifInDepthCompare/obj/x86/Debug/LdifInDepthCompare.csproj.CoreCompileInputs.cache
+/Users/backbone/Documents/Archivio/Code/illogicsoftware/LdifInDepthCompare.git/LdifInDepthCompare/obj/x86/Debug/LdifInDepthCompare.exe
+/Users/backbone/Documents/Archivio/Code/illogicsoftware/LdifInDepthCompare.git/LdifInDepthCompare/obj/x86/Debug/LdifInDepthCompare.pdb
+/Users/backbone/Documents/Archivio/Code/illogicsoftware/LdifInDepthCompare.git/LdifInDepthCompare/bin/Debug/LdifInDepthCompare.exe
+/Users/backbone/Documents/Archivio/Code/illogicsoftware/LdifInDepthCompare.git/LdifInDepthCompare/bin/Debug/LdifInDepthCompare.pdb

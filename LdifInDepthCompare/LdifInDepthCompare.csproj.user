@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <StartArguments>/Users/backbone/Documents/Archivio/Clienti/UCY/CONFIGURATIONS/Old_UserStore1/dump_per_passaggio_produzione/19_novembre_MOD/ldiff/idmdir01-impd-co.ldiff /Users/backbone/Documents/Archivio/Clienti/UCY/CONFIGURATIONS/Old_UserStore1/dump_per_passaggio_produzione/export_before_trial/idmdir03-impd-co.ldiff /Users/backbone/Documents/Archivio/Clienti/UCY/CONFIGURATIONS/Old_UserStore1/dump_per_passaggio_produzione/results/ldifDepthCompare</StartArguments>
+  </PropertyGroup>
+</Project>

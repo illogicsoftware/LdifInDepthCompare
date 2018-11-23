@@ -1,0 +1,3 @@
+/Users/backbone/Projects/LdifInDepthCompare/LdifInDepthCompare/bin/Release/LdifInDepthCompare.exe
+/Users/backbone/Projects/LdifInDepthCompare/LdifInDepthCompare/obj/x86/Release/LdifInDepthCompare.csproj.CoreCompileInputs.cache
+/Users/backbone/Projects/LdifInDepthCompare/LdifInDepthCompare/obj/x86/Release/LdifInDepthCompare.exe

@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{FC4106A5-38A7-453B-B176-6148E2C0472F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LdifInDepthCompare/Rule.cs">
+    <Files>
+      <File FileName="LdifInDepthCompare/Rule.cs" Line="102" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LdifInDepthCompare PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
